@@ -5,7 +5,7 @@ LABEL group = "Logicea"
 EXPOSE 8080
 VOLUME /tmp
 COPY . .
-RUN set -ex && apt-get update && apt-get install -y maven && mvn clean install -X
+# RUN set -ex && apt-get update && apt-get install -y maven && mvn clean install -X
 #TODO pull source code from github, build (mvn)
 #TODO pull webapp from github test it then add to main repo
 ADD target/cards-0.0.1-SNAPSHOT.jar cards-0.0.1-SNAPSHOT.jar
