@@ -1,0 +1,11 @@
+com/logicea/model/User.class
+com/logicea/springboot/SpringBootCrudApplication.class
+com/logicea/service/UserService.class
+com/logicea/service/CardsServiceImpl.class
+com/logicea/service/CardsService.class
+com/logicea/repository/UserRepository.class
+com/logicea/service/UserServiceImpl.class
+com/logicea/controller/CardsController.class
+com/logicea/controller/UserController.class
+com/logicea/model/Card.class
+com/logicea/repository/CardRepository.class
